@@ -1,0 +1,84 @@
+.search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.search-area span {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-top: 7px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #009688;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #009688;
+    color: white;
+}
+
+.item-area {
+    display: grid;
+    padding: 5px 20px;
+    justify-content: space-between;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.item {
+    border: 1px solid #a5a5a5;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.item h3 {
+    text-align: center;
+}
+
+.item .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pagination {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .info span {
+    font-size: 15px;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 1px solid #FF9800;
+    border-radius: 5px;
+}
